@@ -8,14 +8,17 @@ def fizzbuzz(num)
     if num % 3 == 0
       
       return "Fizz"
+      next
       
     elsif num % 5 == 0
     
       return "Buzz"
+      next
       
     elsif num % 3 == 0 && num % 5 == 0
     
       return "FizzBuzz"
+      next
       
     else
       return nil
