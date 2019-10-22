@@ -6,18 +6,19 @@ def fizzbuzz(num)
   loop do
     
     if num % 3 == 0
-      
+      puts "Fizz1"
       return "Fizz"
 
     elsif num % 5 == 0
-    
+      puts "Buzz1"
       return "Buzz"
       
     elsif num % 3 == 0 && num % 5 == 0
-    
+      puts "FizzBuzz1"
       return "FizzBuzz"
 
     else
+      puts "nil"
       return nil
     end
       
