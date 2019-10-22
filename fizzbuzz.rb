@@ -4,7 +4,11 @@
 def fizzbuzz(num)
   
   i = 0
+  x = 0
   loop do
+    
+    if num % 3 == 0
+      x += 1
     
     
   
