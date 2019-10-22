@@ -2,34 +2,25 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  
-  loop do
+
+  if num % 3 == 0 && num % 5 == 0
+    puts "FizzBuzz"
+    return "FizzBuzz"
     
-    if num % 3 == 0
-      puts "Fizz1"
-      return "Fizz"
-      next
-    end
-      
-    if num % 5 == 0
-      puts "Buzz1"
-      return "Buzz"
-      next
-    end
-      
-    if num % 3 == 0 && num % 5 == 0
-      puts "FizzBuzz1"
-      return "FizzBuzz"
-
-
-    else
-      puts "nil"
-      return nil
-      break
-    end
-      
+  elsif num % 3 == 0
+    puts "Fizz"
+    return "Fizz"
+    
+  elsif num % 5 == 0
+    puts "Buzz"
+    return "Buzz"
+    
+  else 
+    puts "nil"
+    return nil
   end
 end
+
     
 fizzbuzz(3)
 fizzbuzz(5)
