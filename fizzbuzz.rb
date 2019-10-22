@@ -3,21 +3,7 @@
 
 def fizzbuzz(num)
   
-  x = 0
-  
-  if num % 3 == 0
-    x += 1
+  loop do
     
-  if num % 5 == 0
-  
-    x += 1
     
-  if x == 0 
-    return nil
-    
-  elsif x == 1
-    return "Fizz"
-    
-  elsif x == 2
-    return "Buzz"
   
