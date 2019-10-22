@@ -3,6 +3,7 @@
 
 def fizzbuzz(num)
   
+  i = 0
   loop do
     
     
