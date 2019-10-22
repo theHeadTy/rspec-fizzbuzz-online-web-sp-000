@@ -21,6 +21,7 @@ def fizzbuzz(num)
       puts "FizzBuzz1"
       return "FizzBuzz"
       break
+    end
       
     else
       puts "nil"
