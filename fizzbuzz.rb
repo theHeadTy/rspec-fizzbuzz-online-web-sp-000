@@ -9,18 +9,18 @@ def fizzbuzz(num)
       puts "Fizz1"
       return "Fizz"
       next
-      break
-
-    elsif num % 5 == 0
+    end
+      
+    if num % 5 == 0
       puts "Buzz1"
       return "Buzz"
-      break
+      next
+    end
       
-    elsif num % 3 == 0 && num % 5 == 0
+    if num % 3 == 0 && num % 5 == 0
       puts "FizzBuzz1"
       return "FizzBuzz"
       
-
     else
       puts "nil"
       return nil
