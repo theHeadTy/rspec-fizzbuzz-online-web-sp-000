@@ -20,6 +20,7 @@ def fizzbuzz(num)
     if num % 3 == 0 && num % 5 == 0
       puts "FizzBuzz1"
       return "FizzBuzz"
+      break
       
     else
       puts "nil"
