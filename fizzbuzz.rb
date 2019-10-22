@@ -3,13 +3,14 @@
 
 def fizzbuzz(num)
   
-  i = 0
-  x = 0
   loop do
     
     if num % 3 == 0
-      x += 1
       
+      return "Fizz"
+      
+    elsif num % 5 == 0
+    
     
     
   
